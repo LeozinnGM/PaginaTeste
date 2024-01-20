@@ -1,8 +1,8 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background-color: #f9f9f9;
     color: #333;
 }
 
@@ -21,7 +21,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: 700;
 }
 
@@ -32,36 +32,39 @@ header span {
 header p {
     font-size: 1.2em;
     margin-top: 10px;
+    color: #ccc;
 }
 
 main {
     background-color: #fff;
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 .feature {
     text-align: center;
-    padding: 40px 0;
+    padding: 60px 0;
 }
 
 .feature h2 {
     color: #1a1a1a;
-    font-size: 2em;
-    margin-bottom: 10px;
+    font-size: 2.5em;
+    margin-bottom: 20px;
 }
 
 .feature p {
     color: #555;
-    font-size: 1.2em;
-    line-height: 1.5;
+    font-size: 1.4em;
+    line-height: 1.6;
 }
 
 footer {
     background-color: #1a1a1a;
     color: #fff;
     text-align: center;
-    padding: 1em 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 2em 0;
+}
+
+footer p {
+    font-size: 1.2em;
+    color: #ccc;
 }
